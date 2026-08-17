@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry- Riverside Bakehouse</title>
+</head>
+<body>
+
+
+     <!---Navigation menu-->
+ <header>   
+<nav>
+   <a href="index.html">Home</a>
+   <a href="about.html">About Us</a>
+   <a href="products.html">Products</a>
+   <a href="contact.html">Contact us</a>
+   <a href="enquiry.html">Enquiry</a>
+   <a href="order.html">Order</a>
+</nav>
+</header>
+
+<!-- makes an enquiry and enters contact details-->
+<main>
+<section class="enquiry form">
+<h1>Make an enquiry</h1>
+<p> Have questions about catering, venue, or made to order </p>
+
+<form action="#" method="post">
+<label for="name">Full Name</label>
+<input type="text" id="name" name="name" required>
+
+<label for="email">Email Address</label>
+<input type="email" id="email" name="email" required>
+
+<label for="phone">Phone Number</label>
+<input type="tel" id="phone" name="phone" required>
+
+<label for="enquiry-type">Type of Enquiry</label>
+<select id="enquiry-type" name="enquiry-type">
+    <option value="catering">Catering</option>
+     <option value=" Venue">Venue</option>
+      <option value="made to order">Made to Order</option>
+</select>
+
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="5" required></textarea>
+
+<button type="submit">Send Enquiry</button>
+</form>
+</section>
+</main>
+
+
+
+<!--Footer appears at the bottom of every page-->
+ <footer>
+    <p>&copy; 2026 Riverside Bakehouse☕</p>
+</footer>   
+
+
+</body>
+</html>

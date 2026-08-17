@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order online - Morgan's Riverside Bakehouse☕</title>
+
+</head>
+<body>
+    
+     <!---Navigation menu-->
+ <header>
+    <nav>
+        <a href="index.html">Home</a>
+         <a href="about.html">About Us</a>
+         <a href="products.html">Products</a>
+         <a href="contact.html">Contact</a>
+         <a href="enquiry.html">Enquiry</a>
+         <a href="order.html">Order</a>
+    </nav>
+    </header>
+
+<!--submit your order online-->
+    <main>
+<h1>Order Online</h1>
+<p>Select your items below and submit your order, we will contact you to confirm.</p>
+
+<!--Contact Details-->
+<form action="#" method="post">
+<h2>Your Details</h2>
+
+<label for="name">Full Name</label>
+<input type="text" id="name" name="name" required>
+
+<label for="email">Email Address</label>
+<input type="email" id="email📧" name="email" required>
+
+<label for="phone📞">Phone Number</label>
+<input type="tel" id="phone📞" name="phone" required>
+
+
+<!--Select the items you want to order-->
+<h2>Select items</h2>
+
+<label for="item1">almond croissants</label>
+<input type="number" id="item1" name="almond croissants" min="0" value="0">
+
+<label for="item2">Baguette Sandwiches</label>
+<input type="number" id="item2" name="Sandwiches" min="0" value="0">
+
+<label for="item3">Latte</label>
+<input type="number" id="item3" name="Latte" min="0" value="0">
+
+<!--Delivery or Pickup option-->
+<h2>Delivery or Pickup</h2>
+
+<label for="fulfillment">Choose an Option</label>
+<select id="fulfillment"> name="fulfillment">
+    <option value="pickup">Store Pickup</option>
+     <option value="delivery">Delivery</option>
+</select>
+
+<!--Preferrable date-->
+<label for="pickup-date">Preferred Date</label>
+<input type="date" id="pickup-date" name="pickup-date" required>
+
+<!--Choose your payment method-->
+<h2>Payment Method</h2>
+
+<label>
+<input type="radio" name="payment" value="card" required>
+Debit/Credit card
+</label>
+<br>
+<label>
+<input type="radio" name="payment" value="eft" required>
+EFT/ Bank Transfer
+</label>
+<br>
+<label>
+<input type="radio" name="payment" value="cash" required>
+Cash on Pickup/Delivery
+</label>
+<br>
+<label>
+<input type="radio" name="payment" value="snapscan" required>
+snapscan
+</label>
+
+<h2>Additional Notes</h2>
+<textarea id="notes" name="notes" row="4"></textarea>
+
+<button type="submit">Submit Order</button>
+</form>
+    </main>
+
+<!--Footer appears at the bottom of every page-->
+ <footer>
+    <p>&copy; 2026 Riverside Bakehouse☕</p>
+</footer>  
+
+
+</body>
+</html>
